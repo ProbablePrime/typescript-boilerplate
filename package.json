@@ -14,30 +14,31 @@
     "lint": "tslint -c tslint.json --project tsconfig.json \"src/**/*.ts\" \"test/**/*.ts\"",
     "docs": "typedoc --out docs/ --mode file --excludeNotExported -tsconfig tsconfig.json --target ES6",
     "fmt": "prettier --write **/*.ts",
-    "deps:update": "ncu -ua"
+    "deps:update": "ncu -u"
   },
   "engineStrict": true,
   "engines": {
-    "node": ">= 12.0.0"
+    "node": ">= 14.0.0"
   },
   "private": true,
   "devDependencies": {
-    "@types/chai": "^4.2.12",
-    "@types/mocha": "^8.0.3",
-    "@types/node": "^14.10.0",
-    "@types/sinon": "^9.0.5",
-    "@types/sinon-chai": "^3.2.4",
-    "chai": "^4.2.0",
-    "mocha": "^8.1.3",
-    "npm-check-updates": "^9.0.0",
+    "@types/chai": "^4.2.15",
+    "@types/mocha": "^8.2.1",
+    "@types/node": "^14.14.32",
+    "@types/sinon": "^9.0.11",
+    "@types/sinon-chai": "^3.2.5",
+    "chai": "^4.3.3",
+    "mocha": "^8.3.1",
+    "npm-check-updates": "^11.2.0",
+    "prettier": "^2.2.1",
     "rimraf": "^3.0.2",
-    "sinon": "^9.0.3",
+    "sinon": "^9.2.4",
     "sinon-chai": "^3.5.0",
-    "ts-node": "^9.0.0",
+    "ts-node": "^9.1.1",
     "tslint": "^6.1.3",
     "tslint-microsoft-contrib": "^6.2.0",
-    "typedoc": "^0.19.1",
-    "typescript": "^4.0.2"
+    "typedoc": "^0.20.30",
+    "typescript": "^4.2.3"
   },
   "prettier": {
     "parser": "typescript",
